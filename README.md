@@ -102,3 +102,8 @@ For each level, we reverse engineered the original *source.c* by examining the g
 * [8](https://github.com/anyashuka/Override/tree/main/level08) - Binary backs up password via symlink
 
 * [9](https://github.com/anyashuka/Override/tree/main/level09) - Off-by-one error
+
+
+## Team
+
+I wrote this project in a team with the wonderful [@Anya Schukin](https://github.com/anyashuka)
