@@ -12,7 +12,7 @@ In the folder for each level you will find:
 
 * *dissasembly_notes.md* - notes on asm 
 
-See the [subject](https://github.com/anyashuka/Override/blob/main/subject.pdf) for more details.
+See the [subject](https://github.com/dfinnis/OverRide/blob/main/subject.pdf) for more details.
 
 
 #### Final Score 125/100
@@ -51,7 +51,7 @@ Log in from a separate shell as user *level00* with password *level00*.
 
 ```ssh level00@{VM_IP} -p 4242```
 
-<img src="https://github.com/anyashuka/Override/blob/main/img/ssh.png" width="800">
+<img src="https://github.com/dfinnis/OverRide/blob/main/img/ssh.png" width="800">
 
 ### Level Up
 
@@ -59,7 +59,7 @@ As user *level00* the goal is to read the password for user *level01*, found at 
 
 In the home folder for user *level00* is a binary *level00* with SUID set and owner *level01*.
 
-<img src="https://github.com/anyashuka/Override/blob/main/img/suid.png" width="400">
+<img src="https://github.com/dfinnis/OverRide/blob/main/img/suid.png" width="400">
 
 This means when we execute the binary *level00*, we do so with the permissions of user *level01*.
 
@@ -71,7 +71,7 @@ Then log in as user *level01*.
 
 ```su level01```
 
-<img src="https://github.com/anyashuka/Override/blob/main/img/su.png" width="330">
+<img src="https://github.com/dfinnis/OverRide/blob/main/img/su.png" width="330">
 
 Repeat for each level.
 
@@ -83,25 +83,25 @@ For each level, we reverse engineered the original *source.c* by examining the g
 
 ## Levels Overview
 
-* [0](https://github.com/anyashuka/Override/tree/main/level00) - Hardcoded password
+* [0](https://github.com/dfinnis/OverRide/tree/main/level00) - Hardcoded password
 
-* [1](https://github.com/anyashuka/Override/tree/main/level01) - Ret2Libc attack
+* [1](https://github.com/dfinnis/OverRide/tree/main/level01) - Ret2Libc attack
 
-* [2](https://github.com/anyashuka/Override/tree/main/level02) - printf() format string attack
+* [2](https://github.com/dfinnis/OverRide/tree/main/level02) - printf() format string attack
 
-* [3](https://github.com/anyashuka/Override/tree/main/level03) - Brute force password
+* [3](https://github.com/dfinnis/OverRide/tree/main/level03) - Brute force password
 
-* [4](https://github.com/anyashuka/Override/tree/main/level04) - gets() stack overflow + Return-to-libc attack
+* [4](https://github.com/dfinnis/OverRide/tree/main/level04) - gets() stack overflow + Return-to-libc attack
 
-* [5](https://github.com/anyashuka/Override/tree/main/level05) - Shellcode in env variable + printf() format string attack
+* [5](https://github.com/dfinnis/OverRide/tree/main/level05) - Shellcode in env variable + printf() format string attack
 
-* [6](https://github.com/anyashuka/Override/tree/main/level06) - Hash value discoverable with gdb
+* [6](https://github.com/dfinnis/OverRide/tree/main/level06) - Hash value discoverable with gdb
 
-* [7](https://github.com/anyashuka/Override/tree/main/level07) - Ret2Libc Attack on unprotected data table
+* [7](https://github.com/dfinnis/OverRide/tree/main/level07) - Ret2Libc Attack on unprotected data table
 
-* [8](https://github.com/anyashuka/Override/tree/main/level08) - Binary backs up password via symlink
+* [8](https://github.com/dfinnis/OverRide/tree/main/level08) - Binary backs up password via symlink
 
-* [9](https://github.com/anyashuka/Override/tree/main/level09) - Off-by-one error
+* [9](https://github.com/dfinnis/OverRide/tree/main/level09) - Off-by-one error
 
 
 ## Team
