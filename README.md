@@ -106,4 +106,4 @@ For each level, we reverse engineered the original *source.c* by examining the g
 
 ## Team
 
-I wrote this project in a team with the wonderful [@Anya Schukin](https://github.com/anyashuka)
+I wrote this project in a team with the wonderful [@Anya Schukin](https://github.com/anyaschukin)
