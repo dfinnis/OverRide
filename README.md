@@ -4,16 +4,17 @@ Explore disassembly, binary exploitation & reverse engineering through 10 little
 
 In the folder for each level you will find:
 
-* *flag* - password for next level
+* **flag** - password for next level
 
-* *README.md* - how to find password
+* **README.md** - how to find password
 
-* *source.c* - the reverse engineered binary
+* **source.c** - the reverse engineered binary
 
-* *dissasembly_notes.md* - notes on asm 
+* **dissasembly_notes.md** - notes on asm 
 
 See the [subject](https://github.com/dfinnis/OverRide/blob/main/subject.pdf) for more details.
 
+For more gdb & exploitation fun check out the previous project [RainFall](https://github.com/dfinnis/RainFall).
 
 #### Final Score 125/100
 
