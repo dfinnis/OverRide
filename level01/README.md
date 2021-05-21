@@ -26,7 +26,7 @@ nope, incorrect username...
 
 ### main() overview
 Let's take a deeper look at the program.
-See [dissasembly notes](https://github.com/anyashuka/Override/blob/main/level01/Ressources/disassembly_notes.md) for detailed gdb assembly breakdown.
+See [dissasembly notes](https://github.com/dfinnis/Override/blob/main/level01/disassembly_notes.md) for detailed gdb assembly breakdown.
 
 First ```main()``` prompts for a username and password, reading from stdin with ```fgets()```, and then calling ```verify_user_name()``` and ```verify_user_pass()```.
 
@@ -69,7 +69,7 @@ Program received signal SIGSEGV, Segmentation fault.
 0x37634136 in ?? ()
 ```
 
-In the previous project, [Rainfall](https://github.com/anyashuka/Rainfall), our strategy was to copy shellcode to the stack and jump to it (a classic stack-based buffer overflow). 
+In the previous project, [Rainfall](https://github.com/dfinnis/Rainfall), our strategy was to copy shellcode to the stack and jump to it (a classic stack-based buffer overflow). 
 
 We've found a more elegant solution to use here: a ret2libc ("return-to-libc") attack, which will overwrite the EIP return address with a particular libc function address directly. 
 
